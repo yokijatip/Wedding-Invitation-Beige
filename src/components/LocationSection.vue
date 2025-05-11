@@ -84,8 +84,8 @@ import { ref, onMounted } from "vue";
 import Content from "/layout/Content.vue";
 import "leaflet/dist/leaflet.css";
 
-let imageFlower1 = "/public/images/location_flowe_1.png";
-let imageFlower2 = "/public/images/location_flowe_2.png";
+let imageFlower1 = "/images/location_flowe_1.png";
+let imageFlower2 = "/images/location_flowe_2.png";
 
 // Map reference
 const mapContainer = ref(null);
