@@ -5,6 +5,8 @@ import QuotesSection from "./components/QuotesSection.vue";
 import MeetTheCoupleSection from "./components/MeetTheCoupleSection.vue";
 import ScheduleSection from "./components/ScheduleSection.vue";
 import CountdownSection from "./components/CountdownSection.vue";
+import GiftSection from "./components/GiftSection.vue";
+import Footer from "./components/Footer.vue";
 </script>
 
 <template>
@@ -15,6 +17,8 @@ import CountdownSection from "./components/CountdownSection.vue";
   <MeetTheCoupleSection />
   <ScheduleSection />
   <CountdownSection />
+  <GiftSection />
+  <Footer />
 </template>
 
 <style scoped></style>

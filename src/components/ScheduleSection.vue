@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-beige text-dark-green">
+  <div class="bg-beige md:min-h-screen text-dark-green">
     <Content>
       <section>
-        <div class="flex flex-col py-8 px-6 items-center w-full">
+        <div class="flex flex-col py-24 md:py-16 px-6 items-center w-full">
           <!-- Title Start -->
           <div class="w-full items-center text-center md:text-start">
             <h1 class="font-new-icon text-6xl md:text-8xl">

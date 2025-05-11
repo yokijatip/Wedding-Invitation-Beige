@@ -109,8 +109,8 @@
 import { ref, onMounted, onBeforeUnmount } from "vue";
 import Content from "/layout/Content.vue";
 
-let imageFlower1 = "/src/assets/countdown_flower_1.png";
-let imageFlower2 = "/src/assets/countdown_flower_2.png";
+let imageFlower1 = "/public/images/countdown_flower_1.png";
+let imageFlower2 = "/public/images/countdown_flower_2.png";
 
 // Set your wedding date (format: year, month [0-11], day, hour, minute)
 const weddingDate = new Date(2025, 5, 17, 12, 0, 0); // June 17, 2025 at 12:00
