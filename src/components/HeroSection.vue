@@ -59,10 +59,6 @@
             <img src="/public/images/hero-flower.svg" alt="hero" />
           </div>
           <!-- Image End -->
-
-          <!-- Button RSVP Start -->
-
-          <!-- Button RSVP End -->
         </div>
         <!-- RIGHT CONTENT END -->
       </section>
