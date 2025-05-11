@@ -75,8 +75,8 @@
 <script setup>
 import Content from "/layout/Content.vue";
 
-let imageFlower1 = "/public/images/meet_the_couple_flower_1.png";
-let imageFlower2 = "/public/images/meet_the_couple_flower_2.png";
+let imageFlower1 = "/images/meet_the_couple_flower_1.png";
+let imageFlower2 = "/images/meet_the_couple_flower_2.png";
 </script>
 
 <style></style>
