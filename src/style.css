@@ -1,1 +1,24 @@
+@font-face {
+  font-family: "PinyonScript";
+  src: url("./assets/fonts/PinyonScript-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Cinzel";
+  src: url("./assets/fonts/Cinzel-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "TenorSans";
+  src: url("./assets/fonts/TenorSans-Regular.ttf");
+}
+
 @import "tailwindcss";
+
+@theme {
+  --color-maroon: #800020;
+  --color-beige: #f3dbb9;
+  --font-pinyon: PinyonScript, "serif";
+  --font-cinzel: Cinzel, "serif";
+  --font-tenor: TenorSans, "sans-serif";
+}
