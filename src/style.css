@@ -13,12 +13,21 @@
   src: url("./assets/fonts/TenorSans-Regular.ttf");
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap");
+
+@font-face {
+  font-family: "CormorantGaramond";
+  src: url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap");
+}
+
 @import "tailwindcss";
 
 @theme {
   --color-maroon: #800020;
   --color-beige: #f3dbb9;
+  --color-dark-green: #3e513c;
   --font-pinyon: PinyonScript, "serif";
   --font-cinzel: Cinzel, "serif";
   --font-tenor: TenorSans, "sans-serif";
+  --font-cormorant: CormorantGaramond;
 }
