@@ -23,6 +23,11 @@
   src: url("./assets/fonts/Maharlika-Regular.ttf");
 }
 
+@font-face {
+  font-family: "Sloop";
+  src: url("./assets/fonts/Sloop-ScriptThree.ttf");
+}
+
 @import "tailwindcss";
 
 @theme {
@@ -35,4 +40,5 @@
   --font-tenor: TenorSans, "sans-serif";
   --font-new-icon: NewIcon, "serif";
   --font-maharlika: Maharlika, "serif";
+  --font-sloop: Sloop, "serif";
 }
