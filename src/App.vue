@@ -12,7 +12,7 @@ import GiftSection from "./components/GiftSection.vue";
 import Footer from "./components/Footer.vue";
 
 // Sound
-const { play } = useSound("/audio/Agape.mp3", {,
+const { play } = useSound("/audio/Agape.mp3", {
   loop: true,
 });
 const isOpened = ref(false);
