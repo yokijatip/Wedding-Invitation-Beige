@@ -13,11 +13,14 @@
   src: url("./assets/fonts/TenorSans-Regular.ttf");
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap");
+@font-face {
+  font-family: "NewIcon";
+  src: url("./assets/fonts/New-Icon-Serif.otf");
+}
 
 @font-face {
-  font-family: "CormorantGaramond";
-  src: url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap");
+  font-family: "Maharlika";
+  src: url("./assets/fonts/Maharlika-Regular.ttf");
 }
 
 @import "tailwindcss";
@@ -26,8 +29,10 @@
   --color-maroon: #800020;
   --color-beige: #f3dbb9;
   --color-dark-green: #3e513c;
+  --color-dark-grey: #4b5151;
   --font-pinyon: PinyonScript, "serif";
   --font-cinzel: Cinzel, "serif";
   --font-tenor: TenorSans, "sans-serif";
-  --font-cormorant: CormorantGaramond;
+  --font-new-icon: NewIcon, "serif";
+  --font-maharlika: Maharlika, "serif";
 }
