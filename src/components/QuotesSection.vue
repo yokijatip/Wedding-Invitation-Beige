@@ -6,7 +6,7 @@
           <!-- Flower Start -->
           <div class="w-1/4 md:w-1/6">
             <img
-              src="/src/assets/quotes-flower.svg"
+              src="/public/images/quotes-flower.svg"
               alt="flower"
               class="w-full h-auto"
             />

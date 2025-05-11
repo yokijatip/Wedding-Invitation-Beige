@@ -56,16 +56,12 @@
         <div class="w-full h-full flex flex-col items-center">
           <!-- Image Start -->
           <div class="w-1/2 rotate-270">
-            <img src="/src/assets/hero-flower.svg" alt="hero" />
+            <img src="/public/images/hero-flower.svg" alt="hero" />
           </div>
           <!-- Image End -->
 
           <!-- Button RSVP Start -->
-          <p
-            class="font-tenor text-3xl font-extralight text-beige mt-4 underline"
-          >
-            RSVP
-          </p>
+
           <!-- Button RSVP End -->
         </div>
         <!-- RIGHT CONTENT END -->

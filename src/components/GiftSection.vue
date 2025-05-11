@@ -13,7 +13,7 @@
               GIFT
             </h1>
             <div class="w-1/2 md:w-1/4">
-              <img src="/src/assets/gift_flower_1.svg" alt="flower" />
+              <img src="/public/images/gift_flower_1.svg" alt="flower" />
             </div>
           </div>
           <!-- TOP CONTENT END -->

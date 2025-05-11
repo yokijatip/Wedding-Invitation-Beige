@@ -1,31 +1,31 @@
 @font-face {
   font-family: "PinyonScript";
-  src: url("./assets/fonts/PinyonScript-Regular.ttf");
+  src: url("/public/fonts/PinyonScript-Regular.ttf");
 }
 
 @font-face {
   font-family: "Cinzel";
-  src: url("./assets/fonts/Cinzel-VariableFont_wght.ttf");
+  src: url("/public/fonts/Cinzel-VariableFont_wght.ttf");
 }
 
 @font-face {
   font-family: "TenorSans";
-  src: url("./assets/fonts/TenorSans-Regular.ttf");
+  src: url("/public/fonts/TenorSans-Regular.ttf");
 }
 
 @font-face {
   font-family: "NewIcon";
-  src: url("./assets/fonts/New-Icon-Serif.otf");
+  src: url("/public/fonts/New-Icon-Serif.otf");
 }
 
 @font-face {
   font-family: "Maharlika";
-  src: url("./assets/fonts/Maharlika-Regular.ttf");
+  src: url("/public/fonts/Maharlika-Regular.ttf");
 }
 
 @font-face {
   font-family: "Sloop";
-  src: url("./assets/fonts/Sloop-ScriptThree.ttf");
+  src: url("/public/fonts/Sloop-ScriptThree.ttf");
 }
 
 @import "tailwindcss";
