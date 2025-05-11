@@ -28,6 +28,11 @@
   src: url("/public/fonts/Sloop-ScriptThree.ttf");
 }
 
+@font-face {
+  font-family: "Frunchy";
+  src: url("/public/fonts/Frunchy.ttf");
+}
+
 @import "tailwindcss";
 
 @theme {
@@ -41,4 +46,5 @@
   --font-new-icon: NewIcon, "serif";
   --font-maharlika: Maharlika, "serif";
   --font-sloop: Sloop, "serif";
+  --font-frunchy: Frunchy, "serif";
 }
