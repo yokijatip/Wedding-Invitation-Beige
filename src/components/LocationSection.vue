@@ -2,23 +2,27 @@
   <div class="bg-beige min-h-screen overflow-hidden relative">
     <!-- Image Corner Left Bottom -->
     <div
-      class="absolute -bottom-8 -left-8 w-1/2 md:w-1/4 max-w-xs z-10 rotate-45"
+      class="absolute -bottom-30 left-12 w-1/2 md:w-1/4 max-w-xs z-10 rotate-200 flower-animation-right"
     >
       <img :src="imageFlower1" alt="flower" class="w-full h-auto" />
     </div>
 
     <!-- Image Corner Right Top -->
     <div
-      class="absolute top-0 right-0 w-[40%] md:w-1/2 max-w-xs z-10 rotate-200"
+      class="absolute top-0 -right-20 w-1/2 md:w-1/4 max-w-xs z-10 rotate-190 flower-animation-right"
     >
       <img :src="imageFlower2" alt="flower" class="w-full h-auto" />
     </div>
 
     <Content>
       <section class="">
-        <div class="flex flex-col items-center md:py-16 py-28">
+        <div class="flex flex-col items-center md:py-6 py-28">
           <!-- Title Start -->
-          <h1 class="font-tenor text-4xl md:text-7xl text-dark-green">
+          <h1
+            class="font-tenor text-4xl md:text-7xl text-dark-green"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
             THE WEDDING
           </h1>
           <!-- Title End -->
@@ -26,6 +30,9 @@
           <!-- Description Start -->
           <p
             class="text-center font-tenor text-md md:text-2xl px-6 mt-8 md:w-2xl text-dark-green"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
           >
             Kp.Babakan Cijeruk Rt/02 Rw/13 Desa Sukawening Kecamatan Ciwidey,
             Kabupaten Bandung
@@ -33,7 +40,12 @@
           <!-- Description End -->
 
           <!-- Leaflet Map Start -->
-          <div data-aos="fade-up" class="w-full max-w-4xl mt-8 px-8">
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="1200"
+            data-aos-delay="400"
+            class="w-full max-w-4xl mt-8 px-8"
+          >
             <div class="bg-white rounded-xl shadow-lg p-4">
               <div
                 class="map-container h-80 rounded-lg overflow-hidden"
@@ -42,7 +54,12 @@
               <div
                 class="mt-4 flex flex-col md:flex-row justify-between items-center"
               >
-                <div class="mb-4 md:mb-0">
+                <div
+                  class="mb-4 md:mb-0"
+                  data-aos="fade-right"
+                  data-aos-delay="600"
+                  data-aos-anchor-placement="top-bottom"
+                >
                   <h3 class="font-tenor text-xl text-dark-green">
                     Lokasi Pernikahan
                   </h3>
@@ -54,6 +71,9 @@
                   :href="googleMapLink"
                   target="_blank"
                   class="px-6 py-2 bg-dark-green text-white rounded-lg hover:bg-opacity-90 transition-all duration-300 flex items-center"
+                  data-aos="fade-left"
+                  data-aos-delay="800"
+                  data-aos-anchor-placement="top-bottom"
                 >
                   <span>Buka di Google Maps</span>
                   <svg
@@ -85,6 +105,8 @@
 import { ref, onMounted } from "vue";
 import Content from "/layout/Content.vue";
 import "leaflet/dist/leaflet.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 let imageFlower1 = "/images/location_flowe_1.png";
 let imageFlower2 = "/images/location_flowe_2.png";
@@ -94,11 +116,19 @@ const mapContainer = ref(null);
 let map = null;
 
 // Sukawening, Ciwidey coordinates (you should verify and update these)
-const lat = -7.101; // Example coordinates for Ciwidey area
-const lng = 107.506; // Example coordinates for Ciwidey area
+const lat = -7.0637166; // Example coordinates for Ciwidey area
+const lng = 107.4726332; // Example coordinates for Ciwidey area
 const googleMapLink = `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`;
 
 onMounted(() => {
+  // Initialize AOS
+  AOS.init({
+    duration: 1000,
+    easing: "ease-in-out",
+    once: true,
+    offset: 50,
+  });
+
   // We need to import Leaflet dynamically on client-side only
   import("leaflet").then((L) => {
     // Fix Leaflet's icon paths
@@ -138,5 +168,40 @@ onMounted(() => {
   width: 100%;
   height: 300px;
   z-index: 1; /* Ensure map is visible over background decorations */
+}
+
+/* Flower animation styles */
+.flower-animation-left {
+  animation: floatLeft 6s ease-in-out infinite;
+  transform-origin: bottom left;
+}
+
+.flower-animation-right {
+  animation: floatRight 7s ease-in-out infinite;
+  transform-origin: top right;
+}
+
+@keyframes floatLeft {
+  0% {
+    transform: rotate(45deg) translate(0, 0);
+  }
+  50% {
+    transform: rotate(43deg) translate(5px, -5px);
+  }
+  100% {
+    transform: rotate(45deg) translate(0, 0);
+  }
+}
+
+@keyframes floatRight {
+  0% {
+    transform: rotate(200deg) translate(0, 0);
+  }
+  50% {
+    transform: rotate(202deg) translate(-5px, 5px);
+  }
+  100% {
+    transform: rotate(200deg) translate(0, 0);
+  }
 }
 </style>

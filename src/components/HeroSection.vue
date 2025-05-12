@@ -68,18 +68,13 @@
         <!-- LEFT CONTENT END -->
 
         <!-- RIGHT CONTENT START -->
-        <div
-          class="w-full h-full flex flex-col items-center"
-          data-aos="zoom-out-left"
-          data-aos-duration="1000"
-          data-aos-delay="300"
-        >
+        <div class="w-full h-full flex flex-col items-center">
           <!-- Image Start -->
           <div
             class="w-1/2 rotate-270"
-            data-aos="zoom-in"
-            data-aos-delay="600"
-            data-aos-duration="1200"
+            data-aos="fade-up"
+            data-aos-delay="300"
+            data-aos-easing="ease-in-sine"
           >
             <img src="/images/hero-flower.svg" alt="hero" />
           </div>
