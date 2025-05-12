@@ -8,13 +8,15 @@
     </div>
 
     <!-- Image Corner Right Top -->
-    <div class="absolute top-0 right-0 w-1/3 md:w-1/4 max-w-xs z-10 rotate-200">
+    <div
+      class="absolute top-0 right-0 w-[40%] md:w-1/2 max-w-xs z-10 rotate-200"
+    >
       <img :src="imageFlower2" alt="flower" class="w-full h-auto" />
     </div>
 
     <Content>
       <section class="">
-        <div class="flex flex-col items-center md:py-6 py-28">
+        <div class="flex flex-col items-center md:py-16 py-28">
           <!-- Title Start -->
           <h1 class="font-tenor text-4xl md:text-7xl text-dark-green">
             THE WEDDING

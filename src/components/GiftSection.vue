@@ -30,12 +30,12 @@
 
               <div class="flex flex-row md:flex-col gap-16 md:gap-0">
                 <p class="font-tenor text-sm md:text-lg text-beige mt-6">
-                  Dana <br />0896-0000-0000 <br />
-                  Nurul Fauziah
+                  Dana <br />0813-1637-4054 <br />
+                  Ramdan Faisal Faturohman
                 </p>
 
                 <p class="font-tenor text-sm md:text-lg text-beige mt-6">
-                  Bank BJB <br />1231231231 <br />
+                  Bank BCA <br />8106095162 <br />
                   Nurul Fauziah
                 </p>
               </div>
@@ -52,7 +52,8 @@
               </p>
 
               <p class="font-tenor text-sm md:text-lg text-beige mt-6">
-                Kp. Babakan Cijeruk, Sukawening, Desa Ciwidey, Kabupaten Bandung
+                Kp.Babakan Cijeruk Rt/02 Rw/13 Desa Sukawening Kecamatan
+                Ciwidey, Kabupaten Bandung
               </p>
             </div>
           </div>
