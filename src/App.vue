@@ -60,11 +60,11 @@ const openInvitation = () => {
     <!-- Main Content -->
     <div v-else key="main-content">
       <HeroSection />
-      <LocationSection />
       <QuotesSection />
       <MeetTheCoupleSection />
       <ScheduleSection />
       <CountdownSection />
+      <LocationSection />
       <GiftSection />
       <Footer />
     </div>
