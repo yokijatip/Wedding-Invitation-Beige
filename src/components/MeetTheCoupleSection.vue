@@ -2,7 +2,7 @@
   <div class="min-h-screen bg-white overflow-hidden relative">
     <!-- Image Corner Left Bottom (bergerak kiri-kanan) -->
     <div
-      class="absolute -bottom-10 md:-bottom-5 left-30 md:left-58 w-1/3 md:w-1/6 max-w-xs z-10 scale-x-[-1] animate-sway-slow flower-animation-left rotate-50 md:rotate-50"
+      class="absolute -bottom-3 md:-bottom-5 left-28 md:left-58 w-1/3 md:w-1/6 max-w-xs z-10 scale-x-[-1] animate-sway-slow flower-animation-left rotate-40 md:rotate-50"
     >
       <img :src="imageFlower1" alt="flower" class="w-full h-auto" />
     </div>
@@ -39,16 +39,16 @@
               data-aos="fade-right"
               data-aos-duration="1000"
             >
-              <h2 class="font-tenor text-3xl md:text-5xl">
-                Nurul<br />Fauziah
-              </h2>
+              <h2 class="font-tenor text-3xl md:text-5xl">Nurul Fauziah</h2>
               <p class="font-cinzel text-sm md:text-lg my-4 md:my-8">
                 Putri dari
               </p>
-              <h3 class="font-maharlika text-xl md:text-3xl">Dama Koswara</h3>
+              <h3 class="font-maharlika text-lg md:text-3xl">
+                Bpk. Dama Koswara
+              </h3>
               <p>&</p>
-              <h3 class="font-maharlika text-xl md:text-3xl">
-                Tuti Kurniawati
+              <h3 class="font-maharlika text-lg md:text-3xl">
+                Ibu. Tuti Kurniawati
               </h3>
             </div>
 
@@ -69,9 +69,11 @@
               <p class="font-cinzel text-sm md:text-lg my-4 md:my-8">
                 Putra dari
               </p>
-              <h3 class="font-maharlika text-xl md:text-3xl">Sumarna</h3>
+              <h3 class="font-maharlika text-lg md:text-3xl">Bpk. Sumarna</h3>
               <p>&</p>
-              <h3 class="font-maharlika text-xl md:text-3xl">Kokom Komariah</h3>
+              <h3 class="font-maharlika text-lg md:text-3xl">
+                Ibu. Kokom Komariah
+              </h3>
             </div>
           </div>
         </div>
