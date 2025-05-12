@@ -9,7 +9,7 @@
 
     <!-- Image Corner Right Top (bergerak kiri-kanan) -->
     <div
-      class="absolute -top-85 md:top-50 md:-bottom-20 -right-48 md:-right-30 w-[50%] md:w-1/3 max-w-xs z-10 rotate-120 md:rotate-310 animate-sway-slow flower-animation-left"
+      class="absolute -top-75 md:top-50 md:-bottom-20 -right-40 md:-right-30 w-[40%] md:w-1/3 max-w-xs z-10 rotate-120 md:rotate-310 animate-sway-slow flower-animation-left"
     >
       <img :src="imageFlower2" alt="flower" class="w-full h-auto" />
     </div>
@@ -27,6 +27,11 @@
             data-aos-duration="1000"
           >
             Assalamu'alaikum<br />wr.wb
+            <p class="font-cinzel text-lg md:text-lg">
+              Dengan Rahmat Allah SWT. <br />
+              kami bermaksud menyelenggarakan <br />
+              pernikahan kami
+            </p>
           </h1>
 
           <!-- Description -->

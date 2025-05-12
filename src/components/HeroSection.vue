@@ -68,10 +68,26 @@
         <!-- LEFT CONTENT END -->
 
         <!-- RIGHT CONTENT START -->
-        <div class="w-full h-full flex flex-col items-center">
+        <div class="w-full h-full flex flex-col items-center mt-8">
+          <div class="text-beige text-center font-frunchy text-2xl">
+            <div
+              class="text-center text-4xl"
+              data-aos="zoom-out"
+              data-aos-duration="1000"
+            >
+              <p>Bismillahirohmanirrohim</p>
+              <p>Assalamualaikum Wr Wb</p>
+            </div>
+            <p class="mt-8" data-aos="zoom-in" data-aos-duration="1000">
+              Tanpa mengurangi rasa hormat,<br />
+              kami bermaksud mengundang <br />Bapak/Ibu/Suadara/i <br />
+              pada acara pernikahan kami
+            </p>
+          </div>
+
           <!-- Image Start -->
           <div
-            class="w-1/2 rotate-270"
+            class="w-1/3 rotate-270"
             data-aos="fade-up"
             data-aos-delay="300"
             data-aos-easing="ease-in-sine"
