@@ -22,7 +22,7 @@
         >
           <!-- Title -->
           <h1
-            class="font-maharlika text-4xl md:text-8xl text-center text-dark-green"
+            class="font-pinyon text-5xl md:text-8xl text-center text-dark-green"
             data-aos="fade-down"
             data-aos-duration="1000"
           >
@@ -39,7 +39,7 @@
               data-aos="fade-right"
               data-aos-duration="1000"
             >
-              <h2 class="font-tenor text-3xl md:text-5xl">Nurul Fauziah</h2>
+              <h2 class="font-maharlika text-3xl md:text-5xl">Nurul Fauziah</h2>
               <p class="font-cinzel text-sm md:text-lg my-4 md:my-8">
                 Putri dari
               </p>
@@ -63,7 +63,7 @@
               data-aos="fade-left"
               data-aos-duration="1000"
             >
-              <h2 class="font-tenor text-3xl md:text-5xl">
+              <h2 class="font-maharlika text-3xl md:text-5xl">
                 Ramdan Faisal<br />Faturohman
               </h2>
               <p class="font-cinzel text-sm md:text-lg my-4 md:my-8">
