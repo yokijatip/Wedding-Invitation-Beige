@@ -34,8 +34,7 @@
             data-aos-duration="1000"
             data-aos-delay="200"
           >
-            Kp.Babakan Cijeruk Rt/02 Rw/13 Desa Sukawening Kecamatan Ciwidey,
-            Kabupaten Bandung
+            Gedung SLB Negeri bandung barat Kp. Baru Rt 02 Rw 18 Desa Ciptaharja
           </p>
           <!-- Description End -->
 
@@ -116,8 +115,8 @@ const mapContainer = ref(null);
 let map = null;
 
 // Sukawening, Ciwidey coordinates (you should verify and update these)
-const lat = -7.0637166; // Example coordinates for Ciwidey area
-const lng = 107.4726332; // Example coordinates for Ciwidey area
+const lat = -6.8411017; // Example coordinates for
+const lng = 107.3560828; // Example coordinates for
 const googleMapLink = `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`;
 
 onMounted(() => {
@@ -154,9 +153,7 @@ onMounted(() => {
     // Add marker for the wedding location
     const marker = L.marker([lat, lng]).addTo(map);
     marker
-      .bindPopup(
-        "<b>Lokasi Pernikahan</b><br>Kp.Babakan Cijeruk, Desa Sukawening"
-      )
+      .bindPopup("<b>Lokasi Pernikahan</b><br>Gedung SLB Negeri bandung barat")
       .openPopup();
   });
 });

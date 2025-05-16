@@ -22,12 +22,12 @@
         >
           <!-- Title -->
           <h1
-            class="font-pinyon text-5xl md:text-8xl text-center text-dark-green"
+            class="font-pinyon text-5xl md:text-7xl text-center text-dark-green"
             data-aos="fade-down"
             data-aos-duration="1000"
           >
             Assalamu'alaikum<br />wr.wb
-            <p class="font-cinzel text-lg md:text-lg">
+            <p class="font-cinzel text-sm md:text-lg">
               Dengan Rahmat Allah SWT. <br />
               kami bermaksud menyelenggarakan <br />
               pernikahan kami
@@ -44,17 +44,15 @@
               data-aos="fade-right"
               data-aos-duration="1000"
             >
-              <h2 class="font-maharlika text-3xl md:text-5xl">Nurul Fauziah</h2>
+              <h2 class="font-maharlika text-3xl md:text-5xl">
+                Wiwit Widyahani
+              </h2>
               <p class="font-cinzel text-sm md:text-lg my-4 md:my-8">
                 Putri dari
               </p>
-              <h3 class="font-maharlika text-lg md:text-3xl">
-                Bpk. Dama Koswara
-              </h3>
+              <h3 class="font-maharlika text-lg md:text-3xl">Bpk. Dedih</h3>
               <p>&</p>
-              <h3 class="font-maharlika text-lg md:text-3xl">
-                Ibu. Tuti Kurniawati
-              </h3>
+              <h3 class="font-maharlika text-lg md:text-3xl">Ibu. Idawati</h3>
             </div>
 
             <!-- Middle: Dengan -->
@@ -69,15 +67,17 @@
               data-aos-duration="1000"
             >
               <h2 class="font-maharlika text-3xl md:text-5xl">
-                Ramdan Faisal<br />Faturohman
+                Moch. Ghani<br />Riyantama
               </h2>
               <p class="font-cinzel text-sm md:text-lg my-4 md:my-8">
                 Putra dari
               </p>
-              <h3 class="font-maharlika text-lg md:text-3xl">Bpk. Sumarna</h3>
+              <h3 class="font-maharlika text-lg md:text-3xl">
+                Bpk. Yana Budiana
+              </h3>
               <p>&</p>
               <h3 class="font-maharlika text-lg md:text-3xl">
-                Ibu. Kokom Komariah
+                Ibu. Sri Damayanti
               </h3>
             </div>
           </div>

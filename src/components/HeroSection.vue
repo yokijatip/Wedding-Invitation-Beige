@@ -18,15 +18,14 @@
             data-aos-duration="1200"
           >
             <h1 class="text-6xl md:text-[8rem] font-pinyon">
-              <span class="text-[8rem] md:text-[12rem] font-pinyon">R</span
-              >amdan
+              <span class="text-[8rem] md:text-[12rem] font-pinyon">G</span>hani
             </h1>
             <br />
             <p class="text-4xl md:text-6xl font-pinyon -mt-12">
               and
               <span class="text-6xl md:text-[8rem] font-pinyon">
-                <span class="text-[8rem] md:text-[12rem] font-pinyon">N</span>
-                <span>urul</span>
+                <span class="text-[8rem] md:text-[12rem] font-pinyon">W</span>
+                <span>iwit</span>
               </span>
             </p>
           </div>
@@ -51,16 +50,16 @@
           >
             <!-- Left -->
             <div class="text-center">
-              <p>SELASA <br /></p>
-              <p>17 JUNI 2025</p>
+              <p>MINGGU <br /></p>
+              <p>06 JULI 2025</p>
             </div>
 
             <div class="border-l border-beige h-12"></div>
 
             <!-- Right -->
             <div class="text-center">
-              <p>SUKAWENING <br /></p>
-              <p>CIWIDEY</p>
+              <p>CIPTAHARJA <br /></p>
+              <p>BANDUNG BARAT</p>
             </div>
           </div>
           <!-- Location End -->

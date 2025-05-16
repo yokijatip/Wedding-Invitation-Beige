@@ -17,7 +17,7 @@
             <h2
               class="text-xl font-tenor tracking-widest mb-8 text-center md:text-start md:text-2xl"
             >
-              SELASA, 17 JUNI 2025
+              MINGGU, 06 JULI 2025
             </h2>
 
             <!-- Schedule Table -->
@@ -32,7 +32,7 @@
                   <div
                     class="flex justify-between items-center pb-2 border-b-2 border-dark-green"
                   >
-                    <div class="text-md md:text-xl font-tenor">9:00 PAGI</div>
+                    <div class="text-md md:text-xl font-tenor">8:30 PAGI</div>
                     <div class="text-md md:text-xl font-tenor">AKAD</div>
                   </div>
                 </div>
@@ -46,10 +46,8 @@
                   <div
                     class="flex justify-between items-center pb-2 border-b-2 border-dark-green"
                   >
-                    <div class="text-md md:text-xl font-tenor">12:00 SIANG</div>
-                    <div class="text-md md:text-xl font-tenor">
-                      WEDDING CEREMONY
-                    </div>
+                    <div class="text-md md:text-xl font-tenor">11:00 SIANG</div>
+                    <div class="text-md md:text-xl font-tenor">RECEPTION</div>
                   </div>
                 </div>
 
@@ -62,22 +60,10 @@
                   <div
                     class="flex justify-between items-center pb-2 border-b-2 border-dark-green"
                   >
-                    <div class="text-md md:text-xl font-tenor">13:00 SIANG</div>
-                    <div class="text-md md:text-xl font-tenor">RECEPTION</div>
-                  </div>
-                </div>
-
-                <!-- Schedule Item - AFTERPARTY -->
-                <div
-                  class="schedule-item mt-8"
-                  data-aos="fade-up"
-                  data-aos-delay="400"
-                >
-                  <div
-                    class="flex justify-between items-center pb-2 border-b-2 border-dark-green"
-                  >
-                    <div class="text-md md:text-xl font-tenor">8:00 MALAM</div>
-                    <div class="text-md md:text-xl font-tenor">AFTERPARTY</div>
+                    <div class="text-md md:text-xl font-tenor">14:00 SIANG</div>
+                    <div class="text-md md:text-xl font-tenor">
+                      WEDDING CEREMONY
+                    </div>
                   </div>
                 </div>
               </div>
