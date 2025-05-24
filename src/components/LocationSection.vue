@@ -14,95 +14,92 @@
       <img :src="imageFlower2" alt="flower" class="w-full h-auto" />
     </div>
 
-    <Content>
-      <section class="">
-        <div class="flex flex-col items-center md:py-6 py-28">
-          <!-- Title Start -->
-          <h1
-            class="font-tenor text-4xl md:text-7xl text-dark-green"
-            data-aos="fade-down"
-            data-aos-duration="1000"
-          >
-            THE WEDDING
-          </h1>
-          <!-- Title End -->
+    <section class="">
+      <div class="flex flex-col items-center md:py-6 py-28">
+        <!-- Title Start -->
+        <h1
+          class="font-tenor text-4xl md:text-7xl text-dark-green"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
+          THE WEDDING
+        </h1>
+        <!-- Title End -->
 
-          <!-- Description Start -->
-          <p
-            class="text-center font-tenor text-md md:text-2xl px-6 mt-8 md:w-2xl text-dark-green"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-delay="200"
-          >
-            Gedung SLB Negeri bandung barat Kp. Baru Rt 02 Rw 18 Desa Ciptaharja
-          </p>
-          <!-- Description End -->
+        <!-- Description Start -->
+        <p
+          class="text-center font-tenor text-md md:text-2xl px-6 mt-8 md:w-2xl text-dark-green"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
+          Gedung SLB Negeri bandung barat Kp. Baru Rt 02 Rw 18 Desa Ciptaharja
+        </p>
+        <!-- Description End -->
 
-          <!-- Leaflet Map Start -->
-          <div
-            data-aos="zoom-in"
-            data-aos-duration="1200"
-            data-aos-delay="400"
-            class="w-full max-w-4xl mt-8 px-8"
-          >
-            <div class="bg-white rounded-xl shadow-lg p-4">
+        <!-- Leaflet Map Start -->
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="1200"
+          data-aos-delay="400"
+          class="w-full max-w-4xl mt-8 px-8"
+        >
+          <div class="bg-white rounded-xl shadow-lg p-4">
+            <div
+              class="map-container h-80 rounded-lg overflow-hidden"
+              ref="mapContainer"
+            ></div>
+            <div
+              class="mt-4 flex flex-col md:flex-row justify-between items-center"
+            >
               <div
-                class="map-container h-80 rounded-lg overflow-hidden"
-                ref="mapContainer"
-              ></div>
-              <div
-                class="mt-4 flex flex-col md:flex-row justify-between items-center"
+                class="mb-4 md:mb-0"
+                data-aos="fade-right"
+                data-aos-delay="600"
+                data-aos-anchor-placement="top-bottom"
               >
-                <div
-                  class="mb-4 md:mb-0"
-                  data-aos="fade-right"
-                  data-aos-delay="600"
-                  data-aos-anchor-placement="top-bottom"
-                >
-                  <h3 class="font-tenor text-xl text-dark-green">
-                    Lokasi Pernikahan
-                  </h3>
-                  <p class="text-gray-600">
-                    Kp.Babakan Cijeruk, Desa Sukawening, Ciwidey
-                  </p>
-                </div>
-                <a
-                  :href="googleMapLink"
-                  target="_blank"
-                  class="px-6 py-2 bg-dark-green text-white rounded-lg hover:bg-opacity-90 transition-all duration-300 flex items-center"
-                  data-aos="fade-left"
-                  data-aos-delay="800"
-                  data-aos-anchor-placement="top-bottom"
-                >
-                  <span>Buka di Google Maps</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 ml-2"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                    />
-                  </svg>
-                </a>
+                <h3 class="font-tenor text-xl text-dark-green">
+                  Lokasi Pernikahan
+                </h3>
+                <p class="text-gray-600">
+                  Kp.Babakan Cijeruk, Desa Sukawening, Ciwidey
+                </p>
               </div>
+              <a
+                :href="googleMapLink"
+                target="_blank"
+                class="px-6 py-2 bg-dark-green text-white rounded-lg hover:bg-opacity-90 transition-all duration-300 flex items-center"
+                data-aos="fade-left"
+                data-aos-delay="800"
+                data-aos-anchor-placement="top-bottom"
+              >
+                <span>Buka di Google Maps</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 ml-2"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                  />
+                </svg>
+              </a>
             </div>
           </div>
-          <!-- Leaflet Map End -->
         </div>
-      </section>
-    </Content>
+        <!-- Leaflet Map End -->
+      </div>
+    </section>
   </div>
 </template>
 
 <script setup>
 import { ref, onMounted } from "vue";
-import Content from "/layout/Content.vue";
 import "leaflet/dist/leaflet.css";
 import AOS from "aos";
 import "aos/dist/aos.css";

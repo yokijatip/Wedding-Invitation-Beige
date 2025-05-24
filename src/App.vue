@@ -38,6 +38,7 @@
     <div v-else key="main-content">
       <HeroSection />
       <QuotesSection />
+      <TheCouple />
       <MeetTheCoupleSection />
       <ScheduleSection />
       <CountdownSection />
@@ -77,9 +78,10 @@ import ScheduleSection from "./components/ScheduleSection.vue";
 import CountdownSection from "./components/CountdownSection.vue";
 import GiftSection from "./components/GiftSection.vue";
 import Footer from "./components/Footer.vue";
-
+import TheCouple from "./components/TheCouple.vue";
 // Sound
 const { play } = useSound("/audio/Agape.mp3", {
+  volume: 0.0,
   loop: true,
 });
 const isOpened = ref(false);

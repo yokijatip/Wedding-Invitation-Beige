@@ -1,108 +1,93 @@
 <template>
   <div class="bg-maroon">
-    <Content>
-      <section
-        class="md:items-center flex flex-col md:gap-4 md:flex-row justify-between min-h-screen md:min-h-screen"
+    <section
+      class="md:items-center flex flex-col md:gap-4 md:flex-row justify-between min-h-screen md:min-h-screen"
+    >
+      <!-- LEFT CONTENT START -->
+      <div
+        class="w-full flex flex-col items-center py-4 md:py-12"
+        data-aos="fade-right"
+        data-aos-duration="1000"
       >
-        <!-- LEFT CONTENT START -->
+        <!-- Name Start -->
         <div
-          class="w-full flex flex-col items-center py-4 md:py-12"
-          data-aos="fade-right"
+          class="text-beige"
+          data-aos="fade-up"
+          data-aos-delay="300"
+          data-aos-duration="1200"
+        >
+          <h1 class="text-6xl md:text-[8rem] font-pinyon">
+            <span class="text-[8rem] md:text-[12rem] font-pinyon">G</span>hani
+          </h1>
+          <br />
+          <p class="text-4xl md:text-6xl font-pinyon -mt-12">
+            and
+            <span class="text-6xl md:text-[8rem] font-pinyon">
+              <span class="text-[8rem] md:text-[12rem] font-pinyon">W</span>
+              <span>iwit</span>
+            </span>
+          </p>
+        </div>
+        <!-- Name End -->
+
+        <!-- Location Start -->
+        <div
+          class="text-gray-200 font-tenor md:text-lg text-sm text-center items-center flex flex-col px-6 md:px-0"
+          data-aos="fade-up"
+          data-aos-delay="600"
           data-aos-duration="1000"
         >
-          <!-- Name Start -->
-          <div
-            class="text-beige"
-            data-aos="fade-up"
-            data-aos-delay="300"
-            data-aos-duration="1200"
-          >
-            <h1 class="text-6xl md:text-[8rem] font-pinyon">
-              <span class="text-[8rem] md:text-[12rem] font-pinyon">G</span>hani
-            </h1>
-            <br />
-            <p class="text-4xl md:text-6xl font-pinyon -mt-12">
-              and
-              <span class="text-6xl md:text-[8rem] font-pinyon">
-                <span class="text-[8rem] md:text-[12rem] font-pinyon">W</span>
-                <span>iwit</span>
-              </span>
-            </p>
-          </div>
-          <!-- Name End -->
+          <h2>WE INVITE YOU TO CELEBRATE OUR MARRIAGE</h2>
+        </div>
 
-          <!-- Location Start -->
-          <div
-            class="text-gray-200 font-tenor md:text-lg text-sm text-center items-center flex flex-col px-6 md:px-0"
-            data-aos="fade-up"
+        <!-- Venue -->
+        <div
+          class="flex flex-row font-tenor text-beige md:text-lg text-lg mt-4 items-center justify-evenly px-6 md:px-0 w-full"
+          data-aos="fade-up"
+          data-aos-delay="900"
+          data-aos-duration="1000"
+        >
+          <!-- Left -->
+          <div class="text-center">
+            <p>MINGGU <br /></p>
+            <p>06 JULI 2025</p>
+          </div>
+
+          <div class="border-l border-beige h-12"></div>
+
+          <!-- Right -->
+          <div class="text-center">
+            <p>CIPTAHARJA <br /></p>
+            <p>BANDUNG BARAT</p>
+          </div>
+        </div>
+        <!-- Location End -->
+      </div>
+      <!-- LEFT CONTENT END -->
+
+      <!-- RIGHT CONTENT START -->
+      <div class="w-full h-full flex flex-col items-center">
+        <!-- Image Container -->
+        <!-- <div
+            class="w-full max-w-md mx-auto rounded-lg overflow-hidden shadow-lg"
+            data-aos="slide-up"
             data-aos-delay="600"
             data-aos-duration="1000"
-          >
-            <h2>WE INVITE YOU TO CELEBRATE OUR MARRIAGE</h2>
-          </div>
-
-          <!-- Venue -->
-          <div
-            class="flex flex-row font-tenor text-beige md:text-lg text-lg mt-4 items-center justify-evenly px-6 md:px-0 w-full"
-            data-aos="fade-up"
-            data-aos-delay="900"
-            data-aos-duration="1000"
-          >
-            <!-- Left -->
-            <div class="text-center">
-              <p>MINGGU <br /></p>
-              <p>06 JULI 2025</p>
-            </div>
-
-            <div class="border-l border-beige h-12"></div>
-
-            <!-- Right -->
-            <div class="text-center">
-              <p>CIPTAHARJA <br /></p>
-              <p>BANDUNG BARAT</p>
-            </div>
-          </div>
-          <!-- Location End -->
-        </div>
-        <!-- LEFT CONTENT END -->
-
-        <!-- RIGHT CONTENT START -->
-        <div class="w-full h-full flex flex-col items-center mt-8">
-          <div class="text-beige text-center font-frunchy text-2xl">
-            <div
-              class="text-center text-4xl"
-              data-aos="zoom-out"
-              data-aos-duration="1000"
-            >
-              <p>Bismillahirohmanirrohim</p>
-              <p>Assalamualaikum Wr Wb</p>
-            </div>
-            <p class="mt-8" data-aos="zoom-in" data-aos-duration="1000">
-              Tanpa mengurangi rasa hormat,<br />
-              kami bermaksud mengundang <br />Bapak/Ibu/Suadara/i <br />
-              pada acara pernikahan kami
-            </p>
-          </div>
-
-          <!-- Image Start -->
-          <div
-            class="w-1/3 rotate-270"
-            data-aos="fade-up"
-            data-aos-delay="300"
-            data-aos-easing="ease-in-sine"
-          >
-            <img src="/images/hero-flower.svg" alt="hero" />
-          </div>
-          <!-- Image End -->
-        </div>
-        <!-- RIGHT CONTENT END -->
-      </section>
-    </Content>
+          > -->
+        <img
+          src="/images/pengantin2.jpg"
+          alt="Pengantin"
+          class="w-full h-auto object-cover rounded-t-[100%] md:pt-8"
+        />
+        <!-- </div> -->
+        <!-- Image End -->
+      </div>
+      <!-- RIGHT CONTENT END -->
+    </section>
   </div>
 </template>
 
 <script setup>
-import Content from "/layout/Content.vue";
 import { onMounted } from "vue";
 import AOS from "aos";
 import "aos/dist/aos.css";
