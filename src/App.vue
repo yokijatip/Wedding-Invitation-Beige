@@ -81,7 +81,7 @@ import Footer from "./components/Footer.vue";
 import TheCouple from "./components/TheCouple.vue";
 // Sound
 const { play } = useSound("/audio/Agape.mp3", {
-  volume: 0.0,
+  volume: 0.8,
   loop: true,
 });
 const isOpened = ref(false);
